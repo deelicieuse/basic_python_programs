@@ -3,8 +3,10 @@ odd_count = 0
 
 # prompt 10 numbers via loop
 for i in range(10):
-    number = int(input(f"Enter integer number {i+1}: "))
-    
-#     if number is not even, then add to odd count
+    number = float(input(f"Enter number {i+1}: "))
 
+#     if number is not even, then add to odd count
+    if number % 2 != 0:
+        odd_count += 1
 # print odd count
+print(f"Count of odd numbers: {odd_count}")
