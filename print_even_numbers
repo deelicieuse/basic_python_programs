@@ -1,3 +1,5 @@
 # loop 0-00
 for number in range(101):
 # if even, then print
+    if number % 2 == 0:
+        print(number)
