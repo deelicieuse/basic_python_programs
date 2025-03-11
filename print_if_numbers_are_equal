@@ -1,2 +1,5 @@
 # prompt user for two numbers
+num1 = float(input("Enter your first number: "))
+num2 = float(input("Enter your second number: "))
+
 # if numbers are equal, print "Equal"
