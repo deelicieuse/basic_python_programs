@@ -7,4 +7,4 @@ for i in range(10):
     
 # add and print sum
     total_sum += number
-print("The sum is:", total_sum)
+print(f"The sum is: {total_sum}.")
