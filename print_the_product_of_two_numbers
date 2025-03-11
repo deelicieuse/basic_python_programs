@@ -2,4 +2,5 @@
 num1 = float(input("Enter your first number: "))
 num2 = float(input("Enter your second number: "))
 
-# multiply and print the sum
+# multiply and print the product
+print(f"The product of {num1} and {num2} is {num1 + num2}")
