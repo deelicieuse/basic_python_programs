@@ -1,3 +1,6 @@
 # initialize zero 
+total_sum = 0
+
 # prompt for ten numbers via loop 
+
 # add and print sum
