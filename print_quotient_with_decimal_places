@@ -1,7 +1,9 @@
 # prompt for a dividend and divisor
-dividend = float(input("Enter first number: "))
-divisor = float(input("Enter second number: "))
+dividend = float(input("Enter your dividend: "))
+divisor = float(input("Enter divisor: "))
 
 # if the divisor is zero
-#     then print error
+if divisor == 0:
+#     then print error5
+    print("Error: Cannot divide by zero.")
 # else print quotient
