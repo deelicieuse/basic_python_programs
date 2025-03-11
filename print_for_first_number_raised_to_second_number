@@ -1,2 +1,5 @@
 # prompt for base and exponent
+base = float(input("Enter a base: "))
+exponent = float(input("Enter an exponent: "))
+
 # calculate and print result
