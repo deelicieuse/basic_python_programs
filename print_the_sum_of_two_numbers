@@ -3,3 +3,4 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 # add and print the sum
+print(f"The sum of {num1} and {num2} is {num1 + num2}")
