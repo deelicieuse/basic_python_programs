@@ -2,7 +2,9 @@
 odd_count = 0
 
 # prompt 10 numbers via loop
-
+for i in range(10):
+    number = int(input(f"Enter integer number {i+1}: "))
+    
 #     if number is not even, then add to odd count
 
 # print odd count
