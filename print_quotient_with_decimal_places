@@ -1,0 +1,4 @@
+# prompt for a dividend and divisor
+# if the divisor is zero
+#     then print error
+# else print quotient
