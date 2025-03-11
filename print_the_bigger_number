@@ -1,0 +1,5 @@
+# prompt user for two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# compare the two numbers and print the bigger one
