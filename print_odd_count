@@ -1,0 +1,8 @@
+# intitialize odd count to zero
+odd_count = 0
+
+# prompt 10 numbers via loop
+
+#     if number is not even, then add to odd count
+
+# print odd count
