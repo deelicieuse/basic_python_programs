@@ -3,4 +3,7 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 # check which is smaller and which is larger
+if num1 < num2:
+    
 # loop from smaller to larger and print
+else:
