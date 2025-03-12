@@ -3,4 +3,9 @@ dividend = float(input("Enter your dividend: "))
 divisor = float(input("Enter divisor: "))
 
 # if divisor is not zero, use // 
+if divisor == 0:
+    print("Error: Cannot divide by zero.")
+else:
+    quotient = int(dividend // divisor)
+    print(f"Your quotient is {quotient}")
 
