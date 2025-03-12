@@ -1,4 +1,6 @@
 # initialize even count as zero 
+even_count = 0
+
 # prompt 10 numbers thru loop 
 # count if divisible by 2
 # print even count
