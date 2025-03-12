@@ -1,3 +1,6 @@
 # prompt for two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
 # check which is smaller and which is larger
 # loop from smaller to larger and print
