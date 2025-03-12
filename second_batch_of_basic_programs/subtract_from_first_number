@@ -2,5 +2,8 @@
 result = float(input("Enter number 1: "))
 
 # prompt numbers 2-10 thru loop 
+for i in range(2, 11):
+    number = float(input(f"Enter number {i}: "))
+    
 # subtract first number from the other numbers
 # print result
