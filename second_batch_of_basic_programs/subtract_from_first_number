@@ -8,3 +8,4 @@ for i in range(2, 11):
 # subtract first number from the other numbers
     result -= number
 # print result
+print(f"The result is {result}")
