@@ -1,0 +1,6 @@
+# prompt for dividend and divisor
+dividend = float(input("Enter your dividend: "))
+divisor = float(input("Enter divisor: "))
+
+# if divisor is not zero, use // 
+
