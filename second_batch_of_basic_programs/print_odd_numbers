@@ -2,6 +2,7 @@
 number = 0
 
 # while a number is less than or equal to 100
+while number <= 100:
 #   if number is not divisible by 2
 #       print odd numbers
 #   add increment
