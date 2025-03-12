@@ -1,0 +1,5 @@
+# initialize numbers as zero 
+# while a number is less than or equal to 100
+#   if number is not divisible by 2
+#       print odd numbers
+#   add increment
