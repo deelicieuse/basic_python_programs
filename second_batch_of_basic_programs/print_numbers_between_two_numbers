@@ -1,9 +1,13 @@
 # prompt for two numbers
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 # check which is smaller and which is larger
 if num1 < num2:
     
 # loop from smaller to larger and print
+    for number in range(num1 + 1, num2):
+        print(number)
 else:
+    for number in range(num2 + 1, num1):
+        print(number)
