@@ -1,4 +1,10 @@
 # prompt for dividend and divisor
-second_batch_of_basic_programs/print_quotient_no_decimal_point
+dividend = float(input("Enter your dividend: "))
+divisor = float(input("Enter divisor: "))
+
 # if divisor is not zero
+if divisor != 0:
+    remainder = divisor % dividend
+    print(f"The remainder is {remainder}.")
+
 #     divide and print remainder
