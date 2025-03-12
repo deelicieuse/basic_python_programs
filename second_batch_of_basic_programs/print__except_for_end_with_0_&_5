@@ -3,5 +3,6 @@ for number in range(101):
 
 # check if number ends with 0/5
     if number % 10 not in (0, 5):
-        
+
 # print numbers
+        print(number)
