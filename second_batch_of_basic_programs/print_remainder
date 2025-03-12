@@ -2,9 +2,14 @@
 dividend = float(input("Enter your dividend: "))
 divisor = float(input("Enter divisor: "))
 
-# if divisor is not zero
+# if divisor is not zero 
+#     divide and print remainder
 if divisor != 0:
     remainder = divisor % dividend
     print(f"The remainder is {remainder}.")
 
-#     divide and print remainder
+# if it is zero
+#     print error 
+else:
+    print("Error: Cannot divide by zero.")
+
