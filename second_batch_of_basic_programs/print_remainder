@@ -1,0 +1,4 @@
+# prompt for dividend and divisor
+second_batch_of_basic_programs/print_quotient_no_decimal_point
+# if divisor is not zero
+#     divide and print remainder
