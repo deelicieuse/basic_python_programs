@@ -2,6 +2,9 @@
 numbers = []
 
 # prompt for number via for loop
+while True:
+    num = int(input("Enter number: "))
+    
 # break loop if input is invalid
 # append
 # initiate max_duplicates to zero and result to None
