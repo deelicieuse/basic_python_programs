@@ -5,6 +5,8 @@ numbers = []
 while True:
       
 # prompt for number 
+    num = int(input("Enter number: "))
+    
 # check if input is invalid
 # check if umber is in numbers list
 # print duplicate 
