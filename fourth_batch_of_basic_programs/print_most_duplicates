@@ -21,8 +21,11 @@ result = None
 for num in numbers:
     freq = numbers.count(num)
 
-# 
+# check if frequency is greater than max_freq
     if freq > max_freq:
 
 # set max_freq to frequency and result to the number
+        max_freq = freq
+        result = num
+        
 # check if result is not none and print
