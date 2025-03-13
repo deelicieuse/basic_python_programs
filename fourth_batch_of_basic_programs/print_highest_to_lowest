@@ -3,10 +3,14 @@ numbers = []
 
 # prompt for number via loop
 while True:
-    num = float(input("Enter number: "))
+    try:
+        num = float(input("Enter number: "))
 
 # append
-    numbers.append(num)
-    
+        numbers.append(num)
+
 # break loop if invalid
+    except:
+        break
+    
 # sort in ascending order and print
