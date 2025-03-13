@@ -9,14 +9,13 @@ while True:
 # break loop if input is invalid
     except:
         break
-e
 # check if highest is none or greater than non
 if highest is None or num > highest: 
     highest = num #     initialize highest as num
 
 # if highest is not none
 if highest is not None:
-    print(f"The lowest number is {lowest}") #     print
+    print(f"The highest number is {highest}") #     print
 
 # else, print no valid numbers
 else:
