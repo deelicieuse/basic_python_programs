@@ -6,7 +6,7 @@ while True:
      try:
 
 # prompt for a number
-         num = int(input("Enter number: "))
+         num = float(input("Enter number: "))
 
 # break loop if invalid
      except:
@@ -16,3 +16,5 @@ while True:
 numbers.append(num)
 
 # sort in descending order and print
+numbers.sort(reverse=True)
+print(f"Sorted from highest to lowest: {numbers}")
