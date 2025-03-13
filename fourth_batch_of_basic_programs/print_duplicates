@@ -1,0 +1,6 @@
+# intialize empty numbers list
+# prompt for number via for loop
+# append
+# initialize empty printed list
+# check if number is greater than one and not in list via for loop
+# print and append
