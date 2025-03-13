@@ -1,30 +1,9 @@
-# intialize empty numbers list
-numbers = []
-
-# prompt for number via for loop
-while True:
-    try:
-        num = int(input("Enter number: "))
-
-# break loop if input is invalid
-    except:
-        break
-
+# initialize an empty list called numbers
+# prompt the user for a number via loop
+# if input is invalid, break
 # append
-     numbers.append(num)
-    
-# initiate max_duplicates to zero and result to None
-max_duplicates = 0
-result = None
-
-# count frequency of numbers with for loop
-for num in numbers:
-    freq = numbers.count(num)
-
-# check if frequency is greater than max_duplicates
-     if freq > max_freq:
-        max_freq = freq
-        result = num
-        
-# set max_duplicaates to frequency and result
-# print
+# initialize max_freq to 0 and result to None
+# count duplicate frequency with for loop
+# check if frequency is greater than max_freq
+# set max_freq to frequency and result to the number
+# check if result is not none and print
