@@ -1,4 +1,6 @@
 # intialize empty list for numbers
+numbers = []
+
 # prompt for numbers and append
 # check if numbers have dupes
 # print number
