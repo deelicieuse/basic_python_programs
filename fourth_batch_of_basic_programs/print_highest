@@ -1,4 +1,6 @@
 # intialize highest to None
+highest = None 
+
 # start loop
 # prompt for number
 # break loop if input is invalid
