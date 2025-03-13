@@ -6,7 +6,7 @@ while True:
     try:
 
 # prompt for number
-         num = int(input("Enter number: "))
+         num = float(input("Enter number: "))
     except:
 # check if input is invalid
          break
@@ -18,3 +18,5 @@ if lowest is None or num < lowest:
 # if lowest is not none
 if lowest is not None:
      print(f"The lowest number is {lowest}") #     print
+else:
+    print("No valid numbers were entered.")
