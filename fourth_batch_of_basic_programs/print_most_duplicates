@@ -3,9 +3,12 @@ numbers = []
 
 # prompt the user for a number via loop
 while True:
-    num = float(input("Enter number: "))
-    
+    try:
+        num = float(input("Enter number: "))
+
 # if input is invalid, break
+    except:
+        break
 # append
 # initialize max_freq to 0 and result to None
 # count duplicate frequency with for loop
