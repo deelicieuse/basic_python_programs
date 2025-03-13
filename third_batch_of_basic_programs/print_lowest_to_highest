@@ -15,6 +15,6 @@ while True:
      except:
         break
      
-# sort in descending order and print
+# sort in ascending order and print
 numbers.sort(reverse=False)
-print(f"Sorted from lowest to lowest: {numbers}")
+print(f"Sorted from lowest to highest: {numbers}")
