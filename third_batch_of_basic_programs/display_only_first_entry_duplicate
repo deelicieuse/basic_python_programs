@@ -1,0 +1,7 @@
+# initialize numbers list
+numbers = []
+
+# prompt for numbers and append
+# initialize 'seen' list
+# check if numbers are in seen list
+# print number and append to seen list
