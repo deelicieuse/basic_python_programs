@@ -17,6 +17,7 @@ if highest is None or num > highest:
 # if highest is not none
 if highest is not None:
     print(f"The lowest number is {lowest}") #     print
-    
-# else print no valid numbers
 
+# else, print no valid numbers
+else:
+    print("No valid numbers were entered.")
