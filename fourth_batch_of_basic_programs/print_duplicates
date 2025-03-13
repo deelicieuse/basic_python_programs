@@ -7,7 +7,9 @@ for i in range(10):
 
 # append
      numbers.append(num)
-     
+
 # initialize empty printed list
+printed = []
+
 # check if number is greater than one and not in list via for loop
 # print and append
