@@ -20,7 +20,9 @@ result = None
 # count duplicate frequency with for loop
 for num in numbers:
     freq = numbers.count(num)
-    
-# check if frequency is greater than max_freq
+
+# 
+    if freq > max_freq:
+
 # set max_freq to frequency and result to the number
 # check if result is not none and print
