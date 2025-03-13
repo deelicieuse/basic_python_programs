@@ -1,5 +1,7 @@
 # intialize empty numbers list
-# prompt for number via for 
+numbers = []
+
+# prompt for number via for loop
 # break loop if input is invalid
 # append
 # initiate max_duplicates to zero and result to None
