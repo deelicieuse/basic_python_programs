@@ -2,6 +2,9 @@
 numbers = []
 
 # prompt for number via loop
+while True:
+    num = float(input("Enter number: "))
+    
 # append
 # break loop if invalid
 # sort in ascending order and print
