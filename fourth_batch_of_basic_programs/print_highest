@@ -11,9 +11,12 @@ while True:
         break
 e
 # check if highest is none or greater than non
-if highest is None or > highest:
+if highest is None or num > highest: 
     highest = num #     initialize highest as num
+
 # if highest is not none
-#     print
+if highest is not None:
+    print(f"The lowest number is {lowest}") #     print
+    
 # else print no valid numbers
 
