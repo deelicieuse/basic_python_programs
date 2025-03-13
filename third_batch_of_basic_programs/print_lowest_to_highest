@@ -3,8 +3,10 @@ numbers = []
 
 # start loop
 while True:
-    
+
 # prompt for a number
+    num = int(input("Enter number: "))
+    
 # break loop if invalid
 # append
 # sort in descending order and print
