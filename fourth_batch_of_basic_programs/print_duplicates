@@ -12,4 +12,7 @@ for i in range(10):
 printed = []
 
 # check if number is greater than one and not in list via for loop
+for num in numbers:
+    if numbers.count(num) > 1 and num not in printed:
+         
 # print and append
