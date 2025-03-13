@@ -3,12 +3,14 @@ lowest = None
 
 # start loop
 while True:
+    try:
 
 # prompt for number
-    num = int(input("Enter number: "))
-
+         num = int(input("Enter number: "))
+    except:
 # check if input is invalid
-#     break
+         break:
+         
 # check if lowest is none or less than none
 #     initialize lowest as None
 # if lowest is not none
