@@ -2,7 +2,9 @@
 highest = None 
 
 # start loop
-# prompt for number
+while True:
+    num = float(input("Enter number: ")) # prompt for number
+    
 # break loop if input is invalid
 # check if highest is none or greater than none
 #     initialize highest as num
