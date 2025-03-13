@@ -1,0 +1,9 @@
+# intialize empty number list
+numbers = []
+
+# prompt for number via loop
+# break loop if input is invalid
+# append
+# if numbers is not empty
+#     compute
+#     print
