@@ -3,9 +3,13 @@ numbers = []
 
 # prompt for number via loop
 while True:
-    num = float(input("Enter Number: "))
-    
+    try:
+        num = float(input("Enter Number: "))
+
 # break loop if input is invalid
+    except:
+        break 
+    
 # append
 # if numbers is not empty
 #     compute
