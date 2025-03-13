@@ -3,7 +3,7 @@ numbers = []
 
 # prompt for number via for loop
 for i in range(10):
-     num = int(input("Enter number: "))
+     num = float(input(f"Enter number {i+1}: "))
 
 # append
      numbers.append(num)
@@ -13,6 +13,8 @@ printed = []
 
 # check if number is greater than one and not in list via for loop
 for num in numbers:
-    if numbers.count(num) > 1 and num not in printed:
+     if numbers.count(num) > 1 and num not in printed:
          
 # print and append
+         print(int(num))
+         printed.append(num)
