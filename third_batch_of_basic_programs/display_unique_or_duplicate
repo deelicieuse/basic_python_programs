@@ -13,6 +13,10 @@ except:
 
 # check if number is in numbers list
      if num in numbers:
+        
         # print duplicate 
         print("Duplicate")
+
 # else print unique and append
+        print("Unique")
+        numbers.append(num)
