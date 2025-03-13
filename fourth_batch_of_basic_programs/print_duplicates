@@ -1,4 +1,6 @@
 # intialize empty numbers list
+numbers = []
+
 # prompt for number via for loop
 # append
 # initialize empty printed list
