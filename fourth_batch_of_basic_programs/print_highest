@@ -3,9 +3,13 @@ highest = None
 
 # start loop
 while True:
-    num = float(input("Enter number: ")) # prompt for number
-    
+    try:
+        num = float(input("Enter number: ")) # prompt for number
+
 # break loop if input is invalid
+    except:
+        break
+    
 # check if highest is none or greater than none
 #     initialize highest as num
 # if highest is not none
