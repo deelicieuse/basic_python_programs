@@ -20,7 +20,11 @@ result = None
 # count frequency of numbers with for loop
 for num in numbers:
     freq = numbers.count(num)
-    
+
 # check if frequency is greater than max_duplicates
+     if freq > max_freq:
+        max_freq = freq
+        result = num
+        
 # set max_duplicaates to frequency and result
 # print
