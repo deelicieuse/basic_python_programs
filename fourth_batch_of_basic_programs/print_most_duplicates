@@ -27,5 +27,7 @@ for num in numbers:
 # set max_freq to frequency and result to the number
         max_freq = freq
         result = num
-        
+
 # check if result is not none and print
+if result is not None:
+    print(f"Number with most duplicates is {result}")
