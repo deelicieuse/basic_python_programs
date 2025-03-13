@@ -6,14 +6,14 @@ while True:
      try:  
 # prompt for number 
         num = int(input("Enter number: "))
-except:
+     except:
 
 # check if input is invalid
-     break
+        break
 
 # check if number is in numbers list
      if num in numbers:
-        
+
         # print duplicate 
         print("Duplicate")
 
