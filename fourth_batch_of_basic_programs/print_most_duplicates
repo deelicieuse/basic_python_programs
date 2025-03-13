@@ -9,7 +9,10 @@ while True:
 # if input is invalid, break
     except:
         break
+
 # append
+    numbers.append(num)
+    
 # initialize max_freq to 0 and result to None
 # count duplicate frequency with for loop
 # check if frequency is greater than max_freq
