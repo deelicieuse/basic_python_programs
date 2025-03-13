@@ -12,7 +12,8 @@ while True:
 
 # append
     numbers.append(num)
-    
+
 # if numbers is not empty
-#     compute
-#     print
+if len(numbers) > 0:
+    avg = sum(numbers) / len (numbers) #     compute
+    print(f"The average is {avg}.") #     print
