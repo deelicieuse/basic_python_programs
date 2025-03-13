@@ -1,0 +1,10 @@
+# intialize highest to None
+# start loop
+# prompt for number
+# break loop if input is invalid
+# check if highest is none or greater than none
+#     initialize highest as num
+# if highest is not none
+#     print
+# else print no valid numbers
+
