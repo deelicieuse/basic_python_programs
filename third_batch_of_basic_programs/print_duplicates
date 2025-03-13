@@ -1,4 +1,6 @@
 # intialize lowest to None
+lowest = None
+
 # start loop
 # prompt for number
 # check if input is invalid
