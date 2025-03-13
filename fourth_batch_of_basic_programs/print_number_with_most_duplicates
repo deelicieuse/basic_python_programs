@@ -17,7 +17,10 @@ while True:
 max_duplicates = 0
 result = None
 
-# count frequency of numbers with for loop 
+# count frequency of numbers with for loop
+for num in numbers:
+    freq = numbers.count(num)
+    
 # check if frequency is greater than max_duplicates
 # set max_duplicaates to frequency and result
 # print
