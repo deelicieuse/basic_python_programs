@@ -12,8 +12,11 @@ while True:
 
 # append
     numbers.append(num)
-    
+
 # initialize max_freq to 0 and result to None
+max_freq = 0
+result = None
+
 # count duplicate frequency with for loop
 # check if frequency is greater than max_freq
 # set max_freq to frequency and result to the number
