@@ -3,11 +3,12 @@ numbers = []
 
 # start loop 
 while True:
-      
+     try:  
 # prompt for number 
-    num = int(input("Enter number: "))
-    
+        num = int(input("Enter number: "))
+except:
 # check if input is invalid
+     break
 # check if umber is in numbers list
 # print duplicate 
 # else print unique and append
