@@ -5,6 +5,9 @@ numbers = []
 for i in range(10):
     num = int(input("Enter number: "))
     numbers.append(num)
-    
+
 # check if numbers have dupes
+for num in numbers:
+    if numbers.count(num) == 1:
+        
 # print number
