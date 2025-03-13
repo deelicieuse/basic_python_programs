@@ -1,7 +1,8 @@
 # intialize empty numbers list
+numbers = []
+
 # start loop
 # prompt for a number
 # break loop if invalid
 # append
 # sort in descending order and print
-
