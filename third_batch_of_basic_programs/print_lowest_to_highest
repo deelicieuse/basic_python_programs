@@ -13,4 +13,6 @@ while True:
         break
      
 # append
+numbers.append(num)
+
 # sort in descending order and print
