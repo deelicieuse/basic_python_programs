@@ -2,6 +2,9 @@
 numbers = []
 
 # prompt for number via for loop
+for i in range(10):
+    num = int(input("Enter number: "))
+    
 # append
 # initialize empty printed list
 # check if number is greater than one and not in list via for loop
