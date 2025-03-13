@@ -1,0 +1,9 @@
+# intialize empty numbers list
+numbers = []
+
+# start loop 
+# prompt for number 
+# check if input is invalid
+# check if umber is in numbers list
+# print duplicate 
+# else print unique and append
