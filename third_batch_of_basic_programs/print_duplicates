@@ -2,6 +2,8 @@
 lowest = None
 
 # start loop
+while True:
+    
 # prompt for number
 # check if input is invalid
 #     break
