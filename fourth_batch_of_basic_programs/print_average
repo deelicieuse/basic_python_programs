@@ -9,8 +9,10 @@ while True:
 # break loop if input is invalid
     except:
         break 
-    
+
 # append
+    numbers.append(num)
+    
 # if numbers is not empty
 #     compute
 #     print
