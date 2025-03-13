@@ -12,5 +12,7 @@ seen = []
 # check if numbers are in seen list
 for num in numbers:
     if num not in seen:
-        
+
 # print number and append to seen list
+         print(num)
+         seen.append(num)
