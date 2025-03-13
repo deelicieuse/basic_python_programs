@@ -5,7 +5,7 @@ divisor = float(input("Enter divisor: "))
 # if divisor is not zero 
 #     divide and print remainder
 if divisor != 0:
-    remainder = divisor % dividend
+    remainder = dividend % divisor
     print(f"The remainder is {remainder}.")
 
 # if it is zero
