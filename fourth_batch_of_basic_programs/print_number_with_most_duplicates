@@ -14,6 +14,9 @@ while True:
      numbers.append(num)
     
 # initiate max_duplicates to zero and result to None
+max_duplicates = 0
+result = None
+
 # count frequency of numbers with for loop 
 # check if frequency is greater than max_duplicates
 # set max_duplicaates to frequency and result
